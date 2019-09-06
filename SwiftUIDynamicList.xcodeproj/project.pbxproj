@@ -13,6 +13,11 @@
 		A1AC9132232243A600CE3859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AC9131232243A600CE3859 /* Assets.xcassets */; };
 		A1AC9135232243A600CE3859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AC9134232243A600CE3859 /* Preview Assets.xcassets */; };
 		A1AC9138232243A600CE3859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AC9136232243A600CE3859 /* LaunchScreen.storyboard */; };
+		A1AC9140232243CB00CE3859 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC913F232243CB00CE3859 /* Constants.swift */; };
+		A1AC9142232243DA00CE3859 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC9141232243DA00CE3859 /* Service.swift */; };
+		A1AC9146232243F900CE3859 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC9143232243F800CE3859 /* ListElement.swift */; };
+		A1AC9147232243F900CE3859 /* ListElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC9144232243F800CE3859 /* ListElementView.swift */; };
+		A1AC9148232243F900CE3859 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AC9145232243F900CE3859 /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A1AC9134232243A600CE3859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1AC9137232243A600CE3859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1AC9139232243A600CE3859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AC913F232243CB00CE3859 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1AC9141232243DA00CE3859 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A1AC9143232243F800CE3859 /* ListElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		A1AC9144232243F800CE3859 /* ListElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListElementView.swift; sourceTree = "<group>"; };
+		A1AC9145232243F900CE3859 /* ListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				A1AC912B232243A400CE3859 /* AppDelegate.swift */,
 				A1AC912D232243A400CE3859 /* SceneDelegate.swift */,
+				A1AC913F232243CB00CE3859 /* Constants.swift */,
+				A1AC9141232243DA00CE3859 /* Service.swift */,
 				A1AC912F232243A400CE3859 /* ContentView.swift */,
+				A1AC9145232243F900CE3859 /* ListDetailView.swift */,
+				A1AC9143232243F800CE3859 /* ListElement.swift */,
+				A1AC9144232243F800CE3859 /* ListElementView.swift */,
 				A1AC9131232243A600CE3859 /* Assets.xcassets */,
 				A1AC9136232243A600CE3859 /* LaunchScreen.storyboard */,
 				A1AC9139232243A600CE3859 /* Info.plist */,
@@ -147,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1AC912C232243A400CE3859 /* AppDelegate.swift in Sources */,
+				A1AC9148232243F900CE3859 /* ListDetailView.swift in Sources */,
 				A1AC912E232243A400CE3859 /* SceneDelegate.swift in Sources */,
+				A1AC9146232243F900CE3859 /* ListElement.swift in Sources */,
+				A1AC9142232243DA00CE3859 /* Service.swift in Sources */,
+				A1AC9147232243F900CE3859 /* ListElementView.swift in Sources */,
 				A1AC9130232243A400CE3859 /* ContentView.swift in Sources */,
+				A1AC9140232243CB00CE3859 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
